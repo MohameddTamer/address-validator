@@ -1,5 +1,7 @@
 # Address Validator + Confirmation Classifier
 
+A Node.js CLI, no dependencies, no build step. Node 18 or newer runs it.
+
 The cheapest failed delivery is the one you never ship.
 
 This checker runs on a COD order before dispatch and flags the problems that
@@ -21,7 +23,7 @@ customers actually type, because that is input, not interface.
 ## Run it
 
 ```bash
-python3 validator.py
+node validator.js
 ```
 
 Runs three demo orders and five demo replies, no setup, no dependencies.
@@ -31,9 +33,9 @@ Runs three demo orders and five demo replies, no setup, no dependencies.
 Give it a CSV and it validates the whole dispatch list at once:
 
 ```bash
-python3 validator.py sample_orders.csv
-python3 validator.py sample_orders.csv --json results.json --report report.html
-python3 validator.py sample_orders.csv --strict
+node validator.js sample_orders.csv
+node validator.js sample_orders.csv --json results.json --report report.html
+node validator.js sample_orders.csv --strict
 ```
 
 Expected columns: `order_id, phone, governorate, city, address`, plus an optional `reply` column whose text gets classified per order. The batch report splits orders into ship and no-ship and lists every issue per order.
@@ -61,7 +63,7 @@ Batch runs log to a file:
 ## Tests
 
 ```bash
-python3 tests/test_validator.py
+node tests/test_validator.js
 ```
 
 Twenty six checks covering the phone, address and reply logic, batch duplicates (order id and phone), malformed rows, the JSON and HTML reports, the log file, strict mode, and the original demo mode.

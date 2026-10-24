@@ -1,0 +1,1 @@
+{"description":"Validate COD order addresses before dispatch and classify WhatsApp confirmation replies.","license":"MIT","main":"validator.js","name":"address-validator","scripts":{"test":"node tests/test_validator.js"},"version":"2.0.0"}
