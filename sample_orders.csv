@@ -1,0 +1,7 @@
+order_id,phone,governorate,city,address,reply
+2001,01012345678,Gharbia,Tanta,El Bahr street next to El Tawfiq pharmacy,Confirmed ship the order
+2002,01123456789,Cairo,Nasr City,Makram Ebeid street behind City Stars,confirmed
+2003,0223456789,Gharbia,Mansoura,street 5,
+2004,01012345678,Gharbia,Tanta,El Bahr street next to El Tawfiq pharmacy,yes
+2005,01234567890,Alexandria,Smouha,Victor Emanuel avenue near Smouha club,Leave it for tomorrow
+2006,0155,Gharbia,Zefta,house 12,Cancel
