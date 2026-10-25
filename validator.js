@@ -273,7 +273,7 @@ function sheetHtml(result) {
   const verdict = ship ? "This address may ship." : "Held. A human should look before anything is dispatched.";
   const place = [result.city || "", result.governorate || ""].filter(Boolean).join(", ");
   return `<section class="sheet">
-<p class="slabel">Order ${escapeHtml(result.order_id ?? "")} · inspected from row ${result.row ?? "—"}</p>
+<p class="slabel">Order ${escapeHtml(result.order_id ?? "")} · inspected from row ${result.row ?? "-"}</p>
 <p class="addr">${escapeHtml(result.address || "")}</p>
 <p class="meta">${escapeHtml(result.phone || "")} · ${escapeHtml(place)}</p>
 <div class="checks">${rows.join("")}</div>

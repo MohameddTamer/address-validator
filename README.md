@@ -47,7 +47,7 @@ Batch input is hardened the same way a dispatch list deserves:
 - A repeated order id is reported and skipped, so one order never ships twice on paper
 - A phone number that appears on two orders is reported, and the later order is blocked until a human looks at it
 - `--strict` exits with code 2 when malformed or duplicate rows were found
-- `--report` writes a standalone HTML certificate: one quiet sheet per order — the address as inspected, the checks as short findings, and the verdict delivered as a single vermillion stamp (CLEARED TO SHIP or NEEDS REVIEW). No charts, no dashboard; validation is a judgment, so the report reads like one
+- `--report` writes a standalone HTML certificate: one quiet sheet per order, the address as inspected, the checks as short findings, and the verdict delivered as a single vermillion stamp (CLEARED TO SHIP or NEEDS REVIEW). No charts, no dashboard; validation is a judgment, so the report reads like one
 
 The bundled `sample_orders.csv` is fictional and shows all of this: six orders including one repeated phone.
 

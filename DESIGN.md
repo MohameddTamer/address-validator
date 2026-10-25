@@ -1,4 +1,4 @@
-# Design — Address Validator certificate
+# Design, Address Validator certificate
 
 ## Concept
 
@@ -6,7 +6,7 @@ Validation is an act of judgment, so the report is a certificate, not a
 dashboard. One address per sheet, given room to be inspected the way an
 inspector would hold it up to the light: mostly silence, a short list of
 findings set like lines of a letter, and the verdict delivered once, at the
-end, with a stamp. Japanese *ma* — negative space as an active material — is
+end, with a stamp. Japanese *ma*, negative space as an active material, is
 the operating principle. What is not on the page is doing as much work as
 what is.
 
@@ -23,10 +23,10 @@ what is.
 
 ## Type
 
-**Newsreader** light (300) for everything read slowly — the certificate
+**Newsreader** light (300) for everything read slowly, the certificate
 title, the inspected address itself, the findings, the verdict sentence in
-italic. **IBM Plex Mono** at 10.5–12.5px, letterspaced and uppercased, for
-labels, order numbers and the annex — the paperwork voice, kept quiet.
+italic. **IBM Plex Mono** at 10.5 to 12.5px, letterspaced and uppercased, for
+labels, order numbers and the annex, the paperwork voice, kept quiet.
 Tabular numerals throughout. The pairing is the whole design: a serif that
 sounds like a person judging, and a mono that sounds like a form being filed.
 
@@ -34,7 +34,7 @@ sounds like a person judging, and a mono that sounds like a form being filed.
 
 The verdict stamp. Each sheet ends above a single hairline with the sentence
 ("This address may ship." / "Held. A human should look before anything is
-dispatched.") and the vermillion seal settling in beside it — one 600ms
+dispatched.") and the vermillion seal settling in beside it, one 600ms
 fade-and-scale, the only motion on the page, which is exactly why it means
 something. A stamp is a decision a person stands behind; the page borrows
 that weight and spends it nowhere else.
